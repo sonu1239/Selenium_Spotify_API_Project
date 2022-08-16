@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="SpotifyApi">
+        <methods>
+          <include name="getToken"/>
+          <include name="testGetCurrentUserPlaylists"/>
+          <include name="test_GetPlaylistCoverImage"/>
+          <include name="testGetUsersPlaylists"/>
+          <include name="testCreatePlaylistShouldStatusCode"/>
+          <include name="test_GetSeveralTracks"/>
+          <include name="testAddItemstoPlaylist"/>
+          <include name="testChangePlaylistDetails"/>
+          <include name="test_GetCurrentUsersProfile"/>
+          <include name="testUpdatePlaylistItems"/>
+          <include name="testSearchForItem"/>
+          <include name="test_RemovePlaylistItems"/>
+          <include name="test_GetTracksAudioFeatures"/>
+          <include name="testGetPlaylist"/>
+          <include name="testGetPlaylistItems"/>
+          <include name="test_GetTracksAudioFeatures_ShouldtatusCode"/>
+          <include name="test_GetTrack"/>
+          <include name="test_GetUsersProfile"/>
+          <include name="test_GetTracksAudioAnalysis"/>
+        </methods>
+      </class> <!-- SpotifyApi -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
